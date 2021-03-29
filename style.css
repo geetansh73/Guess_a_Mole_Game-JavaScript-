@@ -1,0 +1,106 @@
+.bodyBack
+{
+background-color: beige;
+margin: 0;
+}
+#startbtn
+{
+margin-top: 30px;
+}
+img
+{
+  height: 160px;
+  width: 200px;
+text-align:center;
+}
+table
+{
+border: 10px solid blanchedalmond;
+}
+td
+{
+border: 10px solid blanchedalmond; 
+  text-align:center;
+}
+.hov:hover
+{
+  background: blanchedalmond;
+}
+.hov:active
+{
+ background: darkgray;
+}
+.navi:hover
+{
+color: black;
+background-color: lightgrey;
+}
+.scorePanel
+{
+  margin: 20px;
+  width: 250px;
+  border: 5px solid gray;
+  background-color: #FF6F61;
+  border-radius: 4px;
+  padding: 10px;
+  display: inline-block;
+  }
+ .scorePanel:hover
+ {
+  background-color: blanchedalmond;
+ }
+  .gamePanel
+  {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  }
+  .gameOver
+  {
+  text-align: center;
+  margin: auto;
+  border: 5px solid gray;
+   background-color: #FF6F61;
+  border-radius: 10px;
+  height: auto;
+  }
+  .verMiddle
+  {
+  display: table-cell;
+  vertical-align: middle;
+  }
+  .frontImage
+  {
+  border: 10px solid blanchedalmond;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px;
+  background-image: url("15.jpeg");
+  }
+  .frontImage:hover
+  {
+  border: 10px solid darkturquoise;
+  border-radius: 105px 0px 105px 0px;
+  }
+    .frontImage2
+  {
+  border: 15px solid blanchedalmond;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 120px 0 120px 0;
+  background-image: url("11.jpeg");
+  }
+  .frontImage2:hover
+  {
+  border: 20px solid darkturquoise;
+  border-radius: 50%;
+  }
