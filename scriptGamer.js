@@ -25,7 +25,7 @@ chanceLeft--;
   document.getElementById("chance").innerHTML="Chance left: "+chanceLeft;
 if (chanceLeft==0)
  {
-document.body.innerHTML="";  
+document.getElementById("main").removeChild(document.getElementById("tab"));
 location.href="gameover.html";
 localStorage.setItem("fs",score);
  }
